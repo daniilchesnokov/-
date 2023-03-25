@@ -9,11 +9,11 @@ def connect():
     global sqlbooks
     books = sqlite3.connect('books.db')
     sqlbooks = books.cursor()
-bot = telebot.TeleBot("5897613855:AAFfeweFNCtGmi8tzf_zsNbcI_34GsL-e5I")
+bot = telebot.TeleBot("BOT TOKEN")
 
-botRegister = '-1001846131574'
-botTeh = '-760778011'
-worker = '5838451409'
+botRegister = 'ID REGISTER'
+botTeh = 'ID TEH'
+worker = 'ID WORKER'
 
 
 
